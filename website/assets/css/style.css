@@ -262,10 +262,22 @@ form button{
 }
 
 #logoFb{
-	line-height: 1em;
-	border: 2px solid red;
+	line-height: 2rem;
 	width: 100%;
 	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+#logoFb p,{
+	margin: 2px;
+	line-height: 1em;
+}
+
+span.registFb{
+	font-size: 30px;
+	font-weight: 400;
+	color: black;
 }
 
 

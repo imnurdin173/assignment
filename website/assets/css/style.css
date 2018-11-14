@@ -162,8 +162,16 @@ li .columnName{
 
 form{
 	border: 3px solid black;
-	padding: 30px 20px;
+	padding: 30px 50px;
+	max-width: 700px;
+    min-width: 640px;
+    max-height: 90vh;
+    left: 50%;
+    top: 50%;
+
 }
+
+label{}
 
 input[type=text], input[type=password]{
 	width: 100%;
@@ -181,18 +189,22 @@ input[type=text], input[type=password]{
 ::-webkit-input-placeholder {
 	font-family: 'Poppins', sans-serif;
 	color: #d0d0d0;
+	font-size: 14px;
 }
 ::-moz-placeholder {
  	font-family: 'Poppins', sans-serif;
  	color: #d0d0d0;
+ 	font-size: 14px;
 }
 :-ms-input-placeholder {
 	font-family: 'Poppins', sans-serif;
 	color: #d0d0d0;
+	font-size: 14px;
 }
 ::placeholder {
 	font-family: 'Poppins', sans-serif;
 	color: #d0d0d0;
+	font-size: 14px;
 }
 
 /*.modal-content h1{
@@ -259,6 +271,7 @@ form button{
     border-radius: 25px;
     width: 80em;
     height: 50em;
+    padding: 
 }
 
 #logoFb{
